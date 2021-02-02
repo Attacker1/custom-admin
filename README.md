@@ -1,4 +1,4 @@
-# WP Sage
+# НЕ ДЕЛАТЬ COMPOSER UPDATE
 
 <code>Создать базу данных</code>
 <br/>
