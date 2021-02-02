@@ -10,6 +10,8 @@
 <br/>
 <code>cp .env.example .env</code> Отредачить .env
 <br/><br/>
+Заменить в <code>.gitlab-ci.yml</code> и <code>deploy.sh</code> SITENAME (в нескольких местах) на <code>ФИНАЛЬНОЕ НАЗВАНИЕ САЙТА(startted.com/fabrikanoskov.ru)</code>
+<br/><br/>
 <code>cd web/app/themes/sage/</code>
 <br/>
 <code>composer install</code>

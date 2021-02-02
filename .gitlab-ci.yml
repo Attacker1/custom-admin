@@ -1,0 +1,9 @@
+stages:
+  - deploy
+
+deploy:
+  stage: deploy
+  script:
+      - sudo su - SITENAME -c "sh /var/www/SITENAME/data/www/SITENAME/deploy.sh"
+  only:
+    - master
