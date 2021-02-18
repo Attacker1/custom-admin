@@ -98,3 +98,4 @@ Container::getInstance()
 require_once dirname(__DIR__ . '/resources') . '/functions/remove.php';
 require_once dirname(__DIR__ . '/resources') . '/functions/js_vars.php';
 require_once dirname(__DIR__ . '/resources') . '/functions/category/category.php';
+require_once dirname(__DIR__ . '/resources') . '/functions/set_default_taxonomy.php';

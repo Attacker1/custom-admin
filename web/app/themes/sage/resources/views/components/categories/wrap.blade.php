@@ -13,7 +13,7 @@
           <button class="categories-list__button categories-list__edit">
             @include('icon::edit')
           </button>
-          <a href="/add-post" class="categories-list__button categories-list__add">
+          <a href="/add-post?post_category={{ $category->term_id }}" class="categories-list__button categories-list__add">
             @include('icon::plus')
           </a>
         </div>

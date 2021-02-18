@@ -25,7 +25,8 @@ $settings = [
      'html_submit_button' => '<button class="button button_colored button_small">' . $submit .'</button>',
      'html_submit_spinner' => '',
      'kses' => true,
-     'return' => '/post-actions/?success=true&post_id=%post_id%'
+     'return' => '/add-post/?success=true&post_id=%post_id%'
 ];
 acf_form($settings);
+
 @endphp

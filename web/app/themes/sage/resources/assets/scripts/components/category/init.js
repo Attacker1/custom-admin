@@ -43,4 +43,5 @@ jQuery(function ($) {
         input.val('');
         input.val(inputVal);
     });
+
 });
