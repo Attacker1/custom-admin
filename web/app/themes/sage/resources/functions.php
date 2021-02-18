@@ -96,3 +96,5 @@ Container::getInstance()
  * On this file we only append another function files
  */
 require_once dirname(__DIR__ . '/resources') . '/functions/remove.php';
+require_once dirname(__DIR__ . '/resources') . '/functions/js_vars.php';
+require_once dirname(__DIR__ . '/resources') . '/functions/category/category.php';

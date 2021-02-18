@@ -1,0 +1,28 @@
+.button {
+  text-decoration: none;
+  appearance: none;
+  outline: none;
+  border: none;
+
+  &_colored {
+    background-color: $primary;
+    width: 100%;
+    padding: 16px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 12px;
+    color: #fff;
+    transition: box-shadow 0.2s ease;
+
+    &:hover {
+      box-shadow: 0 0 18px -7px #4949d3;
+    }
+  }
+
+  &_small {
+    display: inline-flex;
+    width: auto;
+  }
+}

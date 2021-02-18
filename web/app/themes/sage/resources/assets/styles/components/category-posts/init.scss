@@ -1,0 +1,18 @@
+.category-posts {
+  list-style-type: none;
+
+  &__item {
+    margin-bottom: 20px;
+  }
+
+  &__name {
+    font-size: 16px;
+    font-weight: 500;
+    color: #4a4fda;
+  }
+
+  &__edit {
+    text-decoration: none;
+    color: #808080;
+  }
+}

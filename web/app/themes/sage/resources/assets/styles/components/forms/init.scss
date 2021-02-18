@@ -1,0 +1,11 @@
+@import "input";
+
+.form {
+  &__submit {
+    margin-top: 20px;
+  }
+
+  &__input {
+    margin-bottom: 20px;
+  }
+}

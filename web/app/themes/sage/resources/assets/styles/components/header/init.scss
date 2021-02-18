@@ -1,1 +1,16 @@
-@import "wrap";
+.header {
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+  background-color: #f9fafc;
+
+  &__link {
+    text-decoration: none;
+    color: #222;
+    font-size: 45px;
+    padding: 20px;
+    border: 2px solid #000;
+    cursor: pointer;
+    border-radius: 12px;
+  }
+}
